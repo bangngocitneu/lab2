@@ -8,9 +8,32 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>conghaiso</title>
+    <title>phepcong</title>
 </head>
 <body>
-
+<table>
+    <h1>Cộng 2 Số</h1>
+    <tr>
+        <td><input name="name"></td>
+    </tr>
+    <tr>
+        <td>
+            <select name="toán tử">
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+             </select>
+        </td>
+    </tr>
+    <tr>
+        <td><input name="name"></td>
+    </tr>
+    <tr>
+        <td>&nbsp</td>
+        <td><input type="submit" value="thực hiện"/>
+        </td>
+    </tr>
+</table>
 </body>
 </html>
